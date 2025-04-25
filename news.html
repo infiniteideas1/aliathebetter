@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="description" content="Stay updated with the latest news, events, and developments from Governor Alia's administration in Benue State.">
+    <meta name="theme-color" content="#1ed699">
+    <title>News & Updates - Alia The Better Movement</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                Alia The Better
+                <span class="nav-logo-movement">MOVEMENT</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <div class="nav-menu">
+                <a href="index.html#achievements" class="nav-link">Achievements</a>
+                <a href="news.html" class="nav-link">News</a>
+                <a href="index.html#join" class="nav-link">Join Us</a>
+                <a href="index.html#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- News Hero Section -->
+    <section class="hero news-hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Latest Updates</h1>
+            <p class="hero-subtitle">Stay informed about our progress and initiatives</p>
+        </div>
+    </section>
+
+    <!-- News Categories -->
+    <section class="section">
+        <div class="section-inner">
+            <div class="news-categories">
+                <button class="category-button active" data-category="all">All Updates</button>
+                <button class="category-button" data-category="projects">Projects</button>
+                <button class="category-button" data-category="events">Events</button>
+                <button class="category-button" data-category="press">Press Releases</button>
+            </div>
+
+            <!-- News Grid -->
+            <div class="news-grid">
+                <!-- Featured News -->
+                <article class="news-card featured" data-category="projects" data-aos="fade-up">
+                    <div class="news-image">
+                        <img src="images/road-project.jpg" alt="New Road Construction Project">
+                        <span class="news-tag">Featured</span>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">March 15, 2024</span>
+                        <h2 class="news-title">Major Road Construction Project Launched in Makurdi</h2>
+                        <p class="news-excerpt">Governor Alia initiates a comprehensive road construction project to improve transportation infrastructure...</p>
+                        <a href="#" class="button">Read More</a>
+                    </div>
+                </article>
+
+                <!-- Regular News Items -->
+                <article class="news-card" data-category="events" data-aos="fade-up">
+                    <div class="news-image">
+                        <img src="images/youth-empowerment.jpg" alt="Youth Empowerment Program">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">March 12, 2024</span>
+                        <h3 class="news-title">Youth Empowerment Program Graduates First Batch</h3>
+                        <p class="news-excerpt">200 youths complete intensive skills acquisition program...</p>
+                        <a href="#" class="button">Read More</a>
+                    </div>
+                </article>
+
+                <article class="news-card" data-category="press" data-aos="fade-up">
+                    <div class="news-image">
+                        <img src="images/healthcare.jpg" alt="Healthcare Initiative">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">March 10, 2024</span>
+                        <h3 class="news-title">New Healthcare Centers Open Across Benue State</h3>
+                        <p class="news-excerpt">Five new healthcare centers commissioned to improve medical access...</p>
+                        <a href="#" class="button">Read More</a>
+                    </div>
+                </article>
+
+                <article class="news-card" data-category="projects" data-aos="fade-up">
+                    <div class="news-image">
+                        <img src="images/agriculture.jpg" alt="Agricultural Development">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">March 8, 2024</span>
+                        <h3 class="news-title">Agricultural Modernization Program Kicks Off</h3>
+                        <p class="news-excerpt">New initiative to support farmers with modern farming techniques...</p>
+                        <a href="#" class="button">Read More</a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Load More Button -->
+            <button class="button load-more">Load More Updates</button>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="section newsletter-section">
+        <div class="section-inner">
+            <h2 class="section-title">Stay Updated</h2>
+            <p class="section-subtitle">Subscribe to our newsletter for regular updates</p>
+            <form class="newsletter-form">
+                <div class="form-group">
+                    <input type="email" id="newsletter-email" class="form-input" required>
+                    <label for="newsletter-email" class="form-label">Your Email Address</label>
+                </div>
+                <button type="submit" class="button">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-contact">
+                <p>Call Us: 08131624932</p>
+                <p>Office Address: FCT-Abuja Nigeria</p>
+            </div>
+            <div class="footer-center">
+                <p>&copy; 2025 Alia The Better Movement</p>
+                <p class="footer-powered">Powered by Great Initiative Africa</p>
+            </div>
+            <div class="footer-right">
+                <button class="scroll-top" aria-label="Scroll to top">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            offset: 50,
+            once: true,
+            disable: 'mobile'
+        });
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html> 
